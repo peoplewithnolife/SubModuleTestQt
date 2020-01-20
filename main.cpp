@@ -32,6 +32,11 @@ int main(int argc, char *argv[])
    distMeters = ImpDistFromSpins(nSpins);
 
    cout << "N Spins: " << nSpins << " Is " << distMeters << " Meters" << "\n";
+
+   nSpins = ImpSpinsFromDist(distMeters);
+
+   cout << distMeters << " meters is " << nSpins << " Spins\n";
+
    //return a.exit(0);
    //a.exit(1);
 
