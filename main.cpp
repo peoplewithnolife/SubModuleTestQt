@@ -6,6 +6,7 @@ using namespace std;
 #include "TestCalc.h"
 #include "Source/Weather.h"
 #include "Source/ConvertNk.h"
+#include "Source/ImpellerNk.h"
 
 int main(int argc, char *argv[])
 {
@@ -16,6 +17,8 @@ int main(int argc, char *argv[])
    float dork;
    float dorkLocal;
    float dorkF;
+   float nSpins;
+   float distMeters;
 
    dork = TestCalc(25.3);
 
@@ -25,6 +28,10 @@ int main(int argc, char *argv[])
    dorkF = ConvCtoF(dorkLocal);
    cout << "In C: " << dorkF << "\n";
 
+   nSpins = 10000.0;
+   distMeters = ImpDistFromSpins(nSpins);
+
+   cout << "N Spins: " << nSpins << " Is " << distMeters << " Meters" << "\n";
    //return a.exit(0);
    //a.exit(1);
 
