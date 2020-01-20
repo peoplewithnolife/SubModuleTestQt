@@ -5,8 +5,8 @@ using namespace std;
 
 #include "TestCalc.h"
 #include "Source/Weather.h"
-#include "Source/ConvertNk.h"
-#include "Source/ImpellerNk.h"
+#include "Source/Lib001_Convert/ConvertNk.h"
+#include "Source/Lib001_Impeller/ImpellerNk.h"
 
 int main(int argc, char *argv[])
 {

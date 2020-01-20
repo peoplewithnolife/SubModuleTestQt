@@ -1,0 +1,6 @@
+[submodule "Source/Lib001_Convert"]
+	path = Source/Lib001_Convert
+	url = https://github.com/peoplewithnolife/Lib001_Convert.git
+[submodule "Source/Lib001_Impeller"]
+	path = Source/Lib001_Impeller
+	url = https://github.com/peoplewithnolife/Lib001_Impeller.git

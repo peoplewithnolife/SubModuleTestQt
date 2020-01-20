@@ -15,8 +15,8 @@ DEFINES += QT_DEPRECATED_WARNINGS
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-        Source/ImpellerNk.cpp \
-        Source/ConvertNk.cpp \
+        Source/Lib001_Impeller/ImpellerNk.cpp \
+        Source/Lib001_Convert/ConvertNk.cpp \
         Source/Weather.cpp \
         TestCalc.cpp \
         main.cpp
@@ -27,7 +27,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
 
 HEADERS += \
-    Source/ImpellerNk.h \
-    Source/ConvertNk.h \
+    Source/Lib001_Impeller/ImpellerNk.h \
+    Source/Lib001_Convert/ConvertNk.h \
     Source/Weather.h \
     TestCalc.h
